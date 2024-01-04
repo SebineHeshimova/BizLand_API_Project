@@ -16,6 +16,9 @@ namespace BizLand.Data.DAL
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Profession> Professions { get; set;}
         public DbSet<Feature> Features { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Portfolio> Portfolios { get; set; }
+        public DbSet<PortfolioImage> PortfolioImages { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(EmployeeConfiguration).Assembly);   
