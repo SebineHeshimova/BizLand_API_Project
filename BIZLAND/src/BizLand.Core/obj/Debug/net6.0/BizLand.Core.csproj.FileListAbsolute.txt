@@ -10,3 +10,15 @@ C:\Users\TTS\Desktop\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\refint\BizLand.Co
 C:\Users\TTS\Desktop\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.pdb
 C:\Users\TTS\Desktop\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\ref\BizLand.Core.dll
 C:\Users\TTS\Desktop\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.csproj.AssemblyReference.cache
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\bin\Debug\net6.0\BizLand.Core.deps.json
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\bin\Debug\net6.0\BizLand.Core.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\bin\Debug\net6.0\BizLand.Core.pdb
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.csproj.AssemblyReference.cache
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.AssemblyInfoInputs.cache
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.AssemblyInfo.cs
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.csproj.CoreCompileInputs.cache
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\refint\BizLand.Core.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\BizLand.Core.pdb
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.Core\obj\Debug\net6.0\ref\BizLand.Core.dll

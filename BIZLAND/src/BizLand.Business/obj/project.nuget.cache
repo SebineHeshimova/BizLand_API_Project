@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n8oMG9NKF1BAb5YWETk65xlgm51EhgPUxE3y9TFAdrzbyGhC+L0yfm2+gAr+Y+ihc0q/DZgdSRT5frFeZhjsvA==",
+  "dgSpecHash": "8iJP0E3TnJhG7be1nl4cGVr7MGzkacwy7Cp8nhUgAs0gu+9sXZiWDNpupVdVBVQd9duSXsHLPR9pI2+/SSGRLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.Business\\BizLand.Business.csproj",
+  "projectFilePath": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.Business\\BizLand.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TTS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TTS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

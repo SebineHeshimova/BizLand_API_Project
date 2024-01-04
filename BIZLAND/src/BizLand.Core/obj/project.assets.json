@@ -585,11 +585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.Core\\BizLand.Core.csproj",
+      "projectUniqueName": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.Core\\BizLand.Core.csproj",
       "projectName": "BizLand.Core",
-      "projectPath": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.Core\\BizLand.Core.csproj",
+      "projectPath": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.Core\\BizLand.Core.csproj",
       "packagesPath": "C:\\Users\\TTS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.Core\\obj\\",
+      "outputPath": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TTS\\AppData\\Roaming\\NuGet\\NuGet.Config",

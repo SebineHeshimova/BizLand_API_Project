@@ -2632,11 +2632,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\BizLand.API.csproj",
+      "projectUniqueName": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.API\\BizLand.API.csproj",
       "projectName": "BizLand.API",
-      "projectPath": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\BizLand.API.csproj",
+      "projectPath": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.API\\BizLand.API.csproj",
       "packagesPath": "C:\\Users\\TTS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\obj\\",
+      "outputPath": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2653,8 +2653,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.Business\\BizLand.Business.csproj": {
-              "projectPath": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.Business\\BizLand.Business.csproj"
+            "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.Business\\BizLand.Business.csproj": {
+              "projectPath": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.Business\\BizLand.Business.csproj"
             }
           }
         }

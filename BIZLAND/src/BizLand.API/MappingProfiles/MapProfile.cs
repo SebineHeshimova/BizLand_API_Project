@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BizLand.Business.DTOs.EmployeeDTOs;
+using BizLand.Business.DTOs.FeatureDTOs;
 using BizLand.Business.DTOs.ProfessionDTOs;
 using BizLand.Core.Entity;
 
@@ -16,6 +17,10 @@ namespace BizLand.API.MappingProfiles
             CreateMap<Employee, CreateEmployeeDTO>().ReverseMap();
             CreateMap<Employee, UpdateEmployeeDTO>().ReverseMap();
             CreateMap<Employee, GetEmployeeDTO>().ReverseMap();
+
+            CreateMap<Feature, CreateFeatureDTO>().ReverseMap();
+            CreateMap<Feature, UpdateFeatureDTO>().ReverseMap();
+            CreateMap<Feature, GetFeatureDTO>().ReverseMap();
         }
     }
 }

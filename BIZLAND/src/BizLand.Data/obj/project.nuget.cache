@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tXS2lQWsb9RxLsUD7+7IwPIHg8KnQALz7GmDvtO9XH2sCfgeDJizImwl+c047Ef55zk24NdngchVdxxsvi2IIQ==",
+  "dgSpecHash": "5IaoPN4dnIMyylLigh94j5e1kVrZiVGvwvNcJWPvsmgX1iDdqaFKF6p74wdcRaQT/y/b3iMYKzJRzdnjlXs6MQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.Data\\BizLand.Data.csproj",
+  "projectFilePath": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.Data\\BizLand.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TTS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TTS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -8,6 +8,9 @@ namespace BizLand.Core.Entity
 {
     public class Portfolio:BaseEntity
     {
+        public Category Category { get; set; }
+        public int CategoryId {  get; set; }
+
 
     }
 }

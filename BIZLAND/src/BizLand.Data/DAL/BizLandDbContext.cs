@@ -15,7 +15,7 @@ namespace BizLand.Data.DAL
         
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Profession> Professions { get; set;}
-
+        public DbSet<Feature> Features { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(EmployeeConfiguration).Assembly);   

@@ -14,6 +14,8 @@ builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<IProfessionRepository, ProfessionRepository>();
 builder.Services.AddScoped<IProfessionService, ProfessionService>();
+builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
+builder.Services.AddScoped<IFeatureService, FeatureService>();
 
 builder.Services.AddControllers().AddFluentValidation(option =>
 {
