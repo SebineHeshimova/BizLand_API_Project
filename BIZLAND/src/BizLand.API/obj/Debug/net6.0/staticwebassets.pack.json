@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\256fec16-d7e4-4285-8741-a3035d536347team-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\employees\\256fec16-d7e4-4285-8741-a3035d536347team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\3244543c-29e6-474e-97b5-f423fda868e8team-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\employees\\3244543c-29e6-474e-97b5-f423fda868e8team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\6e1d3fc4-0aab-4b52-bf97-42e36679206bteam-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\employees\\6e1d3fc4-0aab-4b52-bf97-42e36679206bteam-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\employees\\b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BizLand.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BizLand.API.props",
+      "PackagePath": "build\\BizLand.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BizLand.API.props",
+      "PackagePath": "buildMultiTargeting\\BizLand.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BizLand.API.props",
+      "PackagePath": "buildTransitive\\BizLand.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

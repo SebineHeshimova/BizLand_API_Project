@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "+KXE8ZFscUdvzAnxG2LJ2NF3UxiHfgfJ0Y8FIHhiU24=",
+  "Source": "BizLand.API",
+  "BasePath": "_content/BizLand.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BizLand.API\\wwwroot",
+      "Source": "BizLand.API",
+      "ContentRoot": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\",
+      "BasePath": "_content/BizLand.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\256fec16-d7e4-4285-8741-a3035d536347team-2.jpg",
+      "SourceId": "BizLand.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\",
+      "BasePath": "_content/BizLand.API",
+      "RelativePath": "uploads/employees/256fec16-d7e4-4285-8741-a3035d536347team-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\employees\\256fec16-d7e4-4285-8741-a3035d536347team-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\3244543c-29e6-474e-97b5-f423fda868e8team-3.jpg",
+      "SourceId": "BizLand.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\",
+      "BasePath": "_content/BizLand.API",
+      "RelativePath": "uploads/employees/3244543c-29e6-474e-97b5-f423fda868e8team-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\employees\\3244543c-29e6-474e-97b5-f423fda868e8team-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\6e1d3fc4-0aab-4b52-bf97-42e36679206bteam-2.jpg",
+      "SourceId": "BizLand.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\",
+      "BasePath": "_content/BizLand.API",
+      "RelativePath": "uploads/employees/6e1d3fc4-0aab-4b52-bf97-42e36679206bteam-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\employees\\6e1d3fc4-0aab-4b52-bf97-42e36679206bteam-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg",
+      "SourceId": "BizLand.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TTS\\Desktop\\BIZLAND\\src\\BizLand.API\\wwwroot\\",
+      "BasePath": "_content/BizLand.API",
+      "RelativePath": "uploads/employees/b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\employees\\b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg"
+    }
+  ]
+}
