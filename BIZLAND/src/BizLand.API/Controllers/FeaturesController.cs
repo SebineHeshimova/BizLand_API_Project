@@ -1,6 +1,7 @@
 ﻿using BizLand.Business.DTOs.FeatureDTOs;
 using BizLand.Business.Services.Implementations;
 using BizLand.Business.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,6 +18,7 @@ namespace BizLand.API.Controllers
             _featureService = featureService;
         }
 
+        [Authorize(Roles = "SuperAdmin, Admin")]
         [HttpPost("")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> CreateFeature([FromForm] CreateFeatureDTO featuresDTO)
@@ -28,6 +30,8 @@ namespace BizLand.API.Controllers
             catch (Exception ex) { }
             return StatusCode(201);
         }
+
+        [Authorize(Roles = "SuperAdmin, Admin")]
         [HttpPut("")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> UpdateFeature([FromForm]UpdateFeatureDTO featureDTO)
@@ -51,7 +55,9 @@ namespace BizLand.API.Controllers
             var featureDTO = await _featureService.GetByIdAsync(id);
             return Ok(featureDTO);
         }
-        [HttpDelete("SoftDelete/{id}")]
+
+        [Authorize(Roles = "SuperAdmin, Admin")]
+        [HttpPatch("SoftDelete/{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> SoftDeleteFeature(int id)
@@ -63,6 +69,7 @@ namespace BizLand.API.Controllers
             catch (Exception ex) { }
             return StatusCode(204);
         }
+        [Authorize(Roles = "SuperAdmin")]
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

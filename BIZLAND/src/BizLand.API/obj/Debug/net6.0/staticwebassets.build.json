@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hd7CYPL8oP2Nj9cA70N6GiB46XX9ZHiWModJmoFea5E=",
+  "Hash": "3n0PH11jyTugl3MRPWBb+4OYKlssB26g6xHCurKenck=",
   "Source": "BizLand.API",
   "BasePath": "_content/BizLand.API",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\employees\\6e1d3fc4-0aab-4b52-bf97-42e36679206bteam-2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg",
-      "SourceId": "BizLand.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.API\\wwwroot\\",
-      "BasePath": "_content/BizLand.API",
-      "RelativePath": "uploads/employees/b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\employees\\b86c66b0-9ca7-4c90-a17d-4ed7d4a065c3team-3.jpg"
     },
     {
       "Identity": "C:\\Users\\TTS\\Desktop\\BizLand_API_Project\\BIZLAND\\src\\BizLand.API\\wwwroot\\uploads\\employees\\c2415ece-367d-4514-ba5a-018e19803ae8team-2.jpg",

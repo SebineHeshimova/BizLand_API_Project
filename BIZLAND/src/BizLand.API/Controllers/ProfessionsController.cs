@@ -1,5 +1,6 @@
 ﻿using BizLand.Business.DTOs.ProfessionDTOs;
 using BizLand.Business.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,6 +17,7 @@ namespace BizLand.API.Controllers
             _professionService = professionService;
         }
 
+        [Authorize(Roles = "SuperAdmin, Admin")]
         [HttpPost("")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> CreateProfession([FromForm]CreateProfessionDTO professionDTO)
@@ -27,6 +29,8 @@ namespace BizLand.API.Controllers
             catch (Exception ex) { }
             return StatusCode(201);
         }
+
+        [Authorize(Roles = "SuperAdmin, Admin")]
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> UpdateProfession([FromForm] UpdateProfessionDTO professionDTO)
@@ -50,7 +54,9 @@ namespace BizLand.API.Controllers
             var professionDTO = await _professionService.GetByIdAsync(id);
             return Ok(professionDTO);
         }
-        [HttpDelete("SoftDelete/{id}")]
+
+        [Authorize(Roles = "SuperAdmin, Admin")]
+        [HttpPatch("SoftDelete/{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> SoftDeleteProfession(int id)
@@ -62,6 +68,8 @@ namespace BizLand.API.Controllers
             catch (Exception ex) { }
             return StatusCode(204);
         }
+
+        [Authorize(Roles = "SuperAdmin")]
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

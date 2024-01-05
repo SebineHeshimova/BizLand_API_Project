@@ -1,15 +1,12 @@
 ﻿using BizLand.Core.Entity;
 using BizLand.Data.Configurations;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace BizLand.Data.DAL
 {
-    public class BizLandDbContext:DbContext
+    public class BizLandDbContext : IdentityDbContext
     {
         public BizLandDbContext(DbContextOptions<BizLandDbContext> options) : base(options) { }
         
@@ -19,9 +16,12 @@ namespace BizLand.Data.DAL
         public DbSet<Category> Categories { get; set; }
         public DbSet<Portfolio> Portfolios { get; set; }
         public DbSet<PortfolioImage> PortfolioImages { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(EmployeeConfiguration).Assembly);   
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(EmployeeConfiguration).Assembly); 
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

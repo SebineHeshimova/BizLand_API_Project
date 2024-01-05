@@ -158,3 +158,9 @@ C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\obj\Debug\net6.
 C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\obj\Debug\net6.0\BizLand.API.pdb
 C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\obj\Debug\net6.0\BizLand.API.genruntimeconfig.cache
 C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\obj\Debug\net6.0\ref\BizLand.API.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\TTS\Desktop\BizLand_API_Project\BIZLAND\src\BizLand.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

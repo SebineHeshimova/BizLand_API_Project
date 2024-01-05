@@ -2,7 +2,9 @@
 using BizLand.Business.DTOs.CategoryDTOs;
 using BizLand.Business.DTOs.EmployeeDTOs;
 using BizLand.Business.DTOs.FeatureDTOs;
+using BizLand.Business.DTOs.PortfolioDTOs;
 using BizLand.Business.DTOs.ProfessionDTOs;
+using BizLand.Business.DTOs.SliderDTOs;
 using BizLand.Core.Entity;
 
 namespace BizLand.API.MappingProfiles
@@ -26,6 +28,14 @@ namespace BizLand.API.MappingProfiles
             CreateMap<Category, CreateCategoryDTO>().ReverseMap();
             CreateMap<Category, UpdateCategoryDTO>().ReverseMap();
             CreateMap<Category, GetCategoryDTO>().ReverseMap();
+
+            CreateMap<Portfolio, CreatePortfolioDTO>().ReverseMap();
+            CreateMap<Portfolio, UpdatePortfolioDTO>().ReverseMap();
+            CreateMap<Portfolio, GetPortfolioDTO>().ReverseMap();
+
+            CreateMap<Slider, CreateSliderDTO>().ReverseMap();
+            CreateMap<Slider, UpdateSliderDTO>().ReverseMap();
+            CreateMap<Slider, GetSliderDTO>().ReverseMap();
         }
     }
 }
