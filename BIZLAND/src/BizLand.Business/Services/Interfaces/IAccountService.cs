@@ -11,6 +11,7 @@ namespace BizLand.Business.Services.Interfaces
     {
         Task RegisterAsync(RegisterDTO registerDTO);
         Task<string> LoginAsync(LoginDTO loginDTO);
+        //Task LogoutAsync();
 
     }
 }

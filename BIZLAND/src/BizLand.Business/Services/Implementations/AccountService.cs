@@ -79,6 +79,14 @@ namespace BizLand.Business.Services.Implementations
             return token;
         }
 
+
+        //public async Task LogoutAsync()
+        //{
+        //    await _signInManager.SignOutAsync();
+        //}
+
+       
+
         public async Task RegisterAsync(RegisterDTO registerDTO)
         {
             AppUser appUser = null;

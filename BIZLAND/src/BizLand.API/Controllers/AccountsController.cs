@@ -70,6 +70,13 @@ namespace BizLand.API.Controllers
             return Ok();
         }
 
+        //[HttpGet]
+        //public async Task<IActionResult> LogOut()
+        //{
+        //    _accountService.LogoutAsync();
+        //    return Ok();
+        //}
+
         //[HttpGet("CreateAdmin")]
         //public async Task<IActionResult> CreateAdmin()
         //{

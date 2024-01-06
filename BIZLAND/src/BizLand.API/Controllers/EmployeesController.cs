@@ -43,12 +43,16 @@ namespace BizLand.API.Controllers
             catch (Exception ex) { }
             return NoContent();
         }
+
+        [Authorize(Roles = "SuperAdmin, Admin, User")]
         [HttpGet]
         public async Task<IActionResult> GetAllEmployee(string? value, int? professionId, int? values)
         {
             var professionDTO = await _employeeService.GetAllAsync(value, professionId, values);
             return Ok(professionDTO);
         }
+
+        [Authorize(Roles ="SuperAdmin, Admin, User")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetEmployee(int id)
         {
