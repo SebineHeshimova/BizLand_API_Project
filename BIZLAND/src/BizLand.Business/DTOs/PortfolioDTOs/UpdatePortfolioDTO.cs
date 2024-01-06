@@ -10,7 +10,7 @@ namespace BizLand.Business.DTOs.PortfolioDTOs
 {
     public class UpdatePortfolioDTO
     {
-        public int Id {  get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public string Client { get; set; }
@@ -19,6 +19,7 @@ namespace BizLand.Business.DTOs.PortfolioDTOs
         public int CategoryId { get; set; }
         public IFormFile ImageFile { get; set; }
         public List<IFormFile> ImageFiles { get; set; }
+        public List<int>? PortfolioImageIds { get; set; }
     }
     public class UpdatePortfolioDTOValidator : AbstractValidator<UpdatePortfolioDTO>
     {

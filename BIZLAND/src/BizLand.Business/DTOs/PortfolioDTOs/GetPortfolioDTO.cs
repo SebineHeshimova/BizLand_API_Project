@@ -15,6 +15,7 @@ namespace BizLand.Business.DTOs.PortfolioDTOs
         public string ProjectDate { get; set; }
         public string ProjectURL { get; set; }
         public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
     }
     public class GetPortfolioDTOValidator : AbstractValidator<GetPortfolioDTO>
     {
@@ -36,6 +37,7 @@ namespace BizLand.Business.DTOs.PortfolioDTOs
                                     .NotNull().WithMessage("Null ola bilmez!");
             RuleFor(x => x.CategoryId).NotEmpty().WithMessage("Empty ola bilmez!")
                                     .NotNull().WithMessage("Null ola bilmez!");
+           
         }
     }
 

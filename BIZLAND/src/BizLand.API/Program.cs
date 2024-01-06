@@ -31,6 +31,9 @@ builder.Services.AddScoped<ICategoryServise, CategoryService>();
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<ISliderRepository, SliderRepository>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IPortfolioImageRepository, PortfolioImageRepository>();
+builder.Services.AddScoped<IPortfolioService, PortfolioService>();
+builder.Services.AddScoped<IPortfolioRepository, PortfolioRepository>();
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(option =>
 {
